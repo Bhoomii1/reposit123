@@ -1,0 +1,22 @@
+name: Creation of APIM Instance 
+on:
+  workflow_dispatch
+  
+jobs:
+  
+  DEV-REVIEW:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      
+ 
+      - name: Preview the apim infrastructure to be deployed
+        run: |
+              echo "DEV SP"
+              cp *.tf /home/ubuntu/workflow
+              cp *.tfvars /home/ubuntu/workflow
+              terraform init -var-file="dev.tfvars"
+              echo "service prinicipals for dev are okay"
+              terraform plan -var-file="dev.tfvars"
