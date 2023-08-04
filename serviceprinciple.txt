@@ -1,5 +1,0 @@
-
-Subscription_id    ec88c40a-01b2-4e84-9e89-bbad28b0d34d
-tenant ID: 7b7c8e49-c3dc-4a42-9bda-4127d7f6ac29
-(client) ID: a06494ac-948d-4163-b2f7-90729ed929b6
-value id: oRD8Q~FSMj7wFpj2enm0Zw2lxdZQjRh3TOhMPdAL
